@@ -1,0 +1,446 @@
+2023-11-13T05:49:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T05:51:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T05:51:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T05:51:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T05:52:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T05:53:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:05:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:05:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:05:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:05:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#12 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:06:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:06:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:06:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:06:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T06:07:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:07:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:07:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:07:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:09:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:10:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:10:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#14 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:11:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:11:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:11:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:11:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:14:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:14:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-11-13T07:14:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#9 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#10 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
